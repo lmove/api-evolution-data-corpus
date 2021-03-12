@@ -117,14 +117,16 @@
     <!-- run experiment with new lib version -->
     <target name="run-with-lib-version2" description="run experiment with new lib version">
         <echo>===Executing ${main} with updated library (${lib.new.jar})===</echo>
-        <record name="${binary.file}" action="start"/>
+		<record name="${binary.file}" action="start"/>
+		<record name="binary/${main}.txt" action="start"/>
         <java classname="${main}">
             <classpath>
                 <pathelement location="${client.jar}"/>
                 <pathelement location="${lib.new.jar}"/>
             </classpath>
         </java>
-        <record name="${binary.file}" action="stop"/>
+		<record name="binary/${main}.txt" action="stop"/>
+		<record name="${binary.file}" action="stop"/>
 
     </target>
 
