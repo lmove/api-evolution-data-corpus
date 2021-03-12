@@ -1,0 +1,50 @@
+     [java] java.lang.VerifyError: Bad access to protected <init> method
+Exception Details:
+  Location:
+    accessModifierClazzConstructorAccessDecrease/Main.main([Ljava/lang/String;)V @6: invokespecial
+  Reason:
+    Type 'testing_lib/accessModifierClazzConstructorAccessDecrease/AccessModifierClazzConstructorAccessDecrease' (constant pool 3) is not assignable to 'accessModifierClazzConstructorAccessDecrease/Main'
+  Bytecode:
+    0x0000000: 083c bb00 0359 b700 0457 bb00 0359 1bb7
+    0x0000010: 0005 57bb 0003 591b 1bb7 0006 57bb 0007
+    0x0000020: 591b 1b1b b700 0857 bb00 0759 1b1b 1b1b
+    0x0000030: b700 0957 b1                           
+
+	at org.apache.tools.ant.taskdefs.ExecuteJava.execute(ExecuteJava.java:194)
+	at org.apache.tools.ant.taskdefs.Java.run(Java.java:861)
+	at org.apache.tools.ant.taskdefs.Java.executeJava(Java.java:231)
+	at org.apache.tools.ant.taskdefs.Java.executeJava(Java.java:135)
+	at org.apache.tools.ant.taskdefs.Java.execute(Java.java:108)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:292)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:99)
+	at org.apache.tools.ant.Task.perform(Task.java:350)
+	at org.apache.tools.ant.Target.execute(Target.java:449)
+	at org.apache.tools.ant.Target.performTasks(Target.java:470)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1401)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1374)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1264)
+	at org.apache.tools.ant.Main.runBuild(Main.java:827)
+	at org.apache.tools.ant.Main.startAnt(Main.java:223)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:284)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:101)
+Caused by: java.lang.VerifyError: Bad access to protected <init> method
+Exception Details:
+  Location:
+    accessModifierClazzConstructorAccessDecrease/Main.main([Ljava/lang/String;)V @6: invokespecial
+  Reason:
+    Type 'testing_lib/accessModifierClazzConstructorAccessDecrease/AccessModifierClazzConstructorAccessDecrease' (constant pool 3) is not assignable to 'accessModifierClazzConstructorAccessDecrease/Main'
+  Bytecode:
+    0x0000000: 083c bb00 0359 b700 0457 bb00 0359 1bb7
+    0x0000010: 0005 57bb 0003 591b 1bb7 0006 57bb 0007
+    0x0000020: 591b 1b1b b700 0857 bb00 0759 1b1b 1b1b
+    0x0000030: b700 0957 b1                           
+
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.apache.tools.ant.taskdefs.ExecuteJava.execute(ExecuteJava.java:138)
+	... 20 more
+     [java] Java Result: -1
