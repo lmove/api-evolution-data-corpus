@@ -6,7 +6,7 @@ public interface InheritanceIfazeDefaultMethodOverrideAdd extends Interface1 {
 
 	@Override
 	public default void method1() {
-		System.out.println("InheritancIfazeDefaultMethodOverrideAdd default method1");
+		//System.out.println("InheritancIfazeDefaultMethodOverrideAdd default method1");
 	}
 	
 }

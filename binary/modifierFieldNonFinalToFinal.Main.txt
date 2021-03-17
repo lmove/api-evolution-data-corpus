@@ -1,4 +1,3 @@
-     [java] 5
      [java] java.lang.IllegalAccessError
 	at org.apache.tools.ant.taskdefs.ExecuteJava.execute(ExecuteJava.java:194)
 	at org.apache.tools.ant.taskdefs.Java.run(Java.java:861)

@@ -1,1 +1,0 @@
-     [java] InheritancIfazeDefaultMethodOverrideAdd default method1
