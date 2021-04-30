@@ -1,4 +1,4 @@
-package dataTypeIfazeMethodReturnTypeMutation;
+package dataTypeIfazeMethodReturnTypeMutation3;
 
 import testing_lib.dataTypeIfazeMethodReturnTypeMutation.DataTypeIfazeMethodReturnTypeMutation;
 
@@ -23,6 +23,6 @@ public class Main implements DataTypeIfazeMethodReturnTypeMutation {
 	
 	public static void main(String[] args) {
 		DataTypeIfazeMethodReturnTypeMutation ifaze = new Main();
-		int test = ifaze.methodIntegerToString();
+		ifaze.methodVoidToInteger();
 	}
 }
