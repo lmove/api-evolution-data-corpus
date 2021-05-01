@@ -1,4 +1,4 @@
-package accessModifierClazzFieldAccessDecreasePublicToPrivate;
+package accessModifierClazzFieldAccessDecreasePublicToPrivate1;
 
 import testing_lib.accessModifierClazzFieldAccessDecreasePublicToPrivate.AccessModifierClazzFieldAccessDecreasePublicToPrivate;
 
@@ -6,10 +6,9 @@ public class Main extends AccessModifierClazzFieldAccessDecreasePublicToPrivate 
 
 	public static void main(String[] args) {
 		
-		AccessModifierClazzFieldAccessDecreasePublicToPrivate constr = new AccessModifierClazzFieldAccessDecreasePublicToPrivate();
+		Main constrExtended = new Main();
 		
-		Integer test = constr.fieldPublicToPrivate;
-		
+		Integer test = constrExtended.fieldPublicToPrivate;
 	}
 	
 }

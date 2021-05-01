@@ -1,4 +1,4 @@
-package accessModifierClazzFieldAccessDecreasePublicToNon;
+package accessModifierClazzFieldAccessDecreasePublicToNon1;
 
 import testing_lib.accessModifierClazzFieldAccessDecreasePublicToNon.AccessModifierClazzFieldAccessDecreasePublicToNon;
 
@@ -6,10 +6,9 @@ public class Main extends AccessModifierClazzFieldAccessDecreasePublicToNon {
 
 	public static void main(String[] args) {
 		
-		AccessModifierClazzFieldAccessDecreasePublicToNon constr = new AccessModifierClazzFieldAccessDecreasePublicToNon();
+		Main constrExtended = new Main();
 		
-		Integer test = constr.fieldPublicToNon;
-		
+		Integer test = constrExtended.fieldPublicToNon;
 	}
 	
 }

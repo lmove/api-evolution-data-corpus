@@ -1,11 +1,11 @@
-package accessModifierClazzMethodAccessIncreaseNonToPublic;
+package accessModifierClazzMethodAccessIncreaseNonToPublic1;
 
 import testing_lib.accessModifierClazzMethodAccessIncreasePrivateToNon.AccessModifierClazzMethodAccessIncreasePrivateToNon;
 
 public class Main extends AccessModifierClazzMethodAccessIncreasePrivateToNon {
 
 	public static void main(String[] args) {
-		AccessModifierClazzMethodAccessIncreasePrivateToNon constr = new AccessModifierClazzMethodAccessIncreasePrivateToNon();
+		Main constrExtended = new Main();
 	}
 	
 }

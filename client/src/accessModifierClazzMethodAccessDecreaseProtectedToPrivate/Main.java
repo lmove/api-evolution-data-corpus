@@ -5,8 +5,6 @@ import testing_lib.accessModifierClazzMethodAccessDecreaseProtectedToPrivate.Acc
 public class Main extends AccessModifierClazzMethodAccessDecreaseProtectedToPrivate{
 
 	public static void main(String[] args) {
-		AccessModifierClazzMethodAccessDecreaseProtectedToPrivate constr = new AccessModifierClazzMethodAccessDecreaseProtectedToPrivate();
-		
 		Main constrExtended = new Main();
 		constrExtended.methodProtectedToPrivate();
 	}
