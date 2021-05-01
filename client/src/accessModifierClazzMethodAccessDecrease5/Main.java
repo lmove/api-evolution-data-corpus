@@ -1,10 +1,10 @@
-package accessModifierClazzMethodAccessDecrease1;
+package accessModifierClazzMethodAccessDecrease5;
 
 import testing_lib.accessModifierClazzMethodAccessDecrease.AccessModifierClazzMethodAccessDecrease;
 
 public class Main extends AccessModifierClazzMethodAccessDecrease {
 	public void foo() {
-		methodPublicToProtected();
+		methodProtectedToNon();
 	}
 
 	public static void main(String[] args) {

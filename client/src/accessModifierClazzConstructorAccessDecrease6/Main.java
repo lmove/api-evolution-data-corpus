@@ -1,4 +1,4 @@
-package accessModifierClazzConstructorAccessDecrease4;
+package accessModifierClazzConstructorAccessDecrease6;
 
 import testing_lib.accessModifierClazzConstructorAccessDecrease.AccessModifierClazzConstructorAccessDecrease;
 
@@ -8,8 +8,7 @@ public class Main {
 		
 		int a = 5;
 		
-		new AccessModifierClazzConstructorAccessDecrease(a, a);
-		
+		new AccessModifierClazzConstructorAccessDecrease(a, a, a, a);
 	}
 	
 }

@@ -2,7 +2,7 @@ package accessModifierClazzConstructorAccessDecrease3;
 
 import testing_lib.accessModifierClazzConstructorAccessDecrease.AccessModifierClazzConstructorAccessDecrease;
 
-public class Main extends AccessModifierClazzConstructorAccessDecrease {
+public class Main {
 
 	public static void main(String[] args) {
 		
