@@ -1,4 +1,4 @@
-package accessModifierClazzFieldAccessDecrease;
+package accessModifierClazzFieldAccessDecrease2;
 
 import testing_lib.accessModifierClazzFieldAccessDecrease.AccessModifierClazzFieldAccessDecrease;
 
@@ -8,8 +8,8 @@ public class Main extends AccessModifierClazzFieldAccessDecrease {
 		
 		AccessModifierClazzFieldAccessDecrease constr = new AccessModifierClazzFieldAccessDecrease();
 		
-		Integer test = constr.fieldPublicToProtected;
-		
+		Integer test = constr.fieldPublicToPrivate;
+
 	}
 	
 }
