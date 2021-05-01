@@ -21,7 +21,7 @@
 	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:284)
 	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:101)
 Caused by: java.lang.IllegalAccessError: tried to access method testing_lib.accessModifierClazzMethodAccessDecreaseProtectedToPrivate.AccessModifierClazzMethodAccessDecreaseProtectedToPrivate.methodProtectedToPrivate()V from class accessModifierClazzMethodAccessDecreaseProtectedToPrivate.Main
-	at accessModifierClazzMethodAccessDecreaseProtectedToPrivate.Main.main(Main.java:11)
+	at accessModifierClazzMethodAccessDecreaseProtectedToPrivate.Main.main(Main.java:9)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
