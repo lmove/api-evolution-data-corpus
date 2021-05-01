@@ -12,8 +12,6 @@ public class Main extends AccessModifierClazzConstructorAccessDecreasePublicToPr
 		
 		int a = 5;
 		
-		new AccessModifierClazzConstructorAccessDecreasePublicToProtected();
-		
 		new Main();
 	}
 	
